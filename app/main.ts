@@ -11,5 +11,5 @@ platformBrowserDynamic().bootstrapModule(AppModule).then(ref => {
   }
   window['ngRef'] = ref;
 
-  // Otherise, log the boot error
+  // Otherise, log the boot error 
 }).catch(err => console.error(err));
